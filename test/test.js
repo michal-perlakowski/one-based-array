@@ -1,4 +1,4 @@
-import OneBasedArray from '../src/index.js'
+import OneBasedArray from '../build/index.js'
 import chai from 'chai'
 import iterator from 'chai-iterator'
 chai.use(iterator)
