@@ -55,4 +55,4 @@ console.log(arr.slice(1, 3)) // equals new OneBasedArray('a', 'b')
 
 ## License
 
-MIT
+[MIT](LICENSE.md)
