@@ -1,5 +1,7 @@
 # One-based array
 
+[![Build Status](https://img.shields.io/travis/Gothdo/one-based-array.svg?style=flat-square)](https://travis-ci.org/Gothdo/one-based-array)
+
 An array with indexes starting at one.
 
 Warning: this is only an experiment created to prove that it's possible to create a one-based array in JavaScript. It is *not* meant to be used in production environment.
