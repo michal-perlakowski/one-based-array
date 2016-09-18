@@ -102,5 +102,3 @@ export default class OneBasedArray extends Array {
     return this.values()
   }
 }
-
-console.log(new OneBasedArray('a', 'b', 'c').slice(1, 3)[3])
