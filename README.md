@@ -1,6 +1,8 @@
 # One-based array
 
 [![Build Status](https://img.shields.io/travis/Gothdo/one-based-array.svg?style=flat-square)](https://travis-ci.org/Gothdo/one-based-array)
+[![Dependency Status](https://img.shields.io/david/Gothdo/one-based-array.svg?style=flat-square)](https://david-dm.org/Gothdo/one-based-array)
+[![devDependency Status](https://img.shields.io/david/dev/Gothdo/one-based-array.svg?style=flat-square)](https://david-dm.org/Gothdo/one-based-array?type=dev)
 
 An array with indexes starting at one.
 
