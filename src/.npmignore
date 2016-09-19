@@ -1,0 +1,6 @@
+src
+test
+gulpfile.babel.js
+.babelrc
+.eslintrc.json
+.travis.yml
