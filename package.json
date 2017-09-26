@@ -22,7 +22,7 @@
     "gulp-istanbul": "^1.1.1",
     "gulp-mocha": "^3.0.1",
     "mocha": "^3.0.2",
-    "sinon": "^3.0.0"
+    "sinon": "^4.0.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.13.0"
