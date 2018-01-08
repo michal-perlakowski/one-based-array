@@ -2,7 +2,6 @@
 
 [![NPM Version](https://img.shields.io/npm/v/one-based-array.svg?style=flat-square)](https://www.npmjs.com/package/one-based-array)
 [![Build Status](https://img.shields.io/travis/Gothdo/one-based-array.svg?style=flat-square)](https://travis-ci.org/Gothdo/one-based-array)
-[![Dependency Status](https://img.shields.io/david/Gothdo/one-based-array.svg?style=flat-square)](https://david-dm.org/Gothdo/one-based-array)
 [![devDependency Status](https://img.shields.io/david/dev/Gothdo/one-based-array.svg?style=flat-square)](https://david-dm.org/Gothdo/one-based-array?type=dev)
 [![Coverage Status](https://img.shields.io/coveralls/Gothdo/one-based-array.svg?style=flat-square)](https://coveralls.io/github/Gothdo/one-based-array?branch=master)
 
