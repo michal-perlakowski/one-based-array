@@ -4,27 +4,25 @@
   "description": "An array with indexes starting at 1.",
   "license": "MIT",
   "author": "Gothdo <michal@perlakowski.pl> (https://github.com/Gothdo)",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "repository": "Gothdo/one-based-array",
   "devDependencies": {
-    "babel-cli": "^6.14.0",
-    "babel-eslint": "^8.0.0",
-    "babel-preset-latest": "^6.14.0",
-    "babel-preset-node6": "^11.0.0",
-    "babel-preset-stage-0": "^6.5.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-register": "^6.26.0",
     "chai": "^4.0.0",
-    "chai-iterator": "^1.1.1",
     "chai-things": "^0.2.0",
-    "eslint": "^4.0.0",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.0",
-    "gulp-coveralls": "^0.1.4",
-    "gulp-istanbul": "^1.1.1",
-    "gulp-mocha": "^5.0.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
     "mocha": "^4.0.0",
+    "nyc": "^11.4.1",
     "sinon": "^4.0.0"
   },
-  "dependencies": {
-    "babel-polyfill": "^6.13.0"
+  "scripts": {
+    "build": "babel src/index.js --out-file dist/index.js",
+    "test": "mocha --require babel-register",
+    "coverage": "nyc npm test --reporter text-lcov | coveralls"
   }
 }
