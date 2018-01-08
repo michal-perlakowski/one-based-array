@@ -23,6 +23,6 @@
   "scripts": {
     "build": "babel src/index.js --out-file dist/index.js",
     "test": "mocha --require babel-register",
-    "coverage": "nyc npm test --reporter text-lcov | coveralls"
+    "coverage": "nyc npm test && nyc report --reporter text-lcov | coveralls"
   }
 }
