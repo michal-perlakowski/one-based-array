@@ -1,6 +1,6 @@
 {
   "name": "one-based-array",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An array with indexes starting at 1.",
   "license": "MIT",
   "author": "Gothdo <michal@perlakowski.pl> (https://github.com/Gothdo)",
